@@ -8,3 +8,7 @@ b1: đẩy các file có sự thay đổi lên staging area, dùng lệnh : git 
     muốn đẩy tất cả file có sự thay đổi dùng lệnh : " git add .", 
     để kiểm tra sự thay đổi ta dùng lệnh "git status "
     muốn đảo ngược lại việc thêm các file sự thay đổi lên staging area dùng lệnh : git reset
+b2: tạo ra commit để ghi chú lại sự thay đổi code, chúng ta dùng lệnh: git commit -m "lời nhắn"
+    muốn kiểm tra các commit dùng lệnh: git log 
+
+b3: để đẩy code lên remote repo lưu trữ lần đầu dùng lệnh : git push -u origin master, lần sau chỉ cân git push origin 
