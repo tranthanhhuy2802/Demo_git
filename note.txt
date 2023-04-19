@@ -12,3 +12,10 @@ b2: tạo ra commit để ghi chú lại sự thay đổi code, chúng ta dùng 
     muốn kiểm tra các commit dùng lệnh: git log 
 
 b3: để đẩy code lên remote repo lưu trữ lần đầu dùng lệnh : git push -u origin master, lần sau chỉ cân git push origin 
+
+khi đi làm tham gia vào dự án mới, cần lấy soure code : git clone + đường dẫn
+
+khi muốn test chức năng mới, mà sợ ảnh hưởng tới các đoạn code cũ đang có , ta sẽ commit lại đoạn code đó và chỉnh sửa, nếu muôn quay về vị trí commit đó khi lỗi ta có thể dùng lệnh: git stash
+
+tạo nhánh 
+b1: dùng lệnh git branch + tên nhanh, muốn kiểm tra các nhanh đang có dùng lệnh:git branch
