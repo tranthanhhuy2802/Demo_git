@@ -12,3 +12,4 @@ b2: tạo ra commit để ghi chú lại sự thay đổi code, chúng ta dùng 
     muốn kiểm tra các commit dùng lệnh: git log 
 
 b3: để đẩy code lên remote repo lưu trữ lần đầu dùng lệnh : git push -u origin master, lần sau chỉ cân git push origin 
+
